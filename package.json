@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "projeto-imersao-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,16 +18,17 @@
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Armano Alves",
+    "email": "armanobarrosalvesh@gmail.com",
+    "url": "https://github.com/armanoalves"
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "node --watch --env-file=.env server.js",
     "test": ""
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
   }
 }
